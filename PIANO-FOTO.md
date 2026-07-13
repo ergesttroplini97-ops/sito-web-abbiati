@@ -46,30 +46,41 @@ Suffissi ricorrenti: `-volto` (ritaglio quadrato per foto profilo), `-ritratto`
 Sempre: `loading="lazy"` (tranne il banner in cima alla pagina), attributo `alt`
 descrittivo in italiano, `object-fit: cover` per i ritagli via CSS.
 
-## 4. Mappa attuale delle foto sul sito
+## 4. Mappa attuale delle foto sul sito (agg. 13/07/2026)
 
 ### Homepage (index.html)
 1. **Hero** → video villa (`restyling/header homepage.mp4`)
 2. **Fascia team a tutta larghezza** → `team-panoramica.jpg` (subito dopo il hero)
-3. **I Soci Fondatori** (blocchi editoriali alternati) → `luca-mondrian.jpg` + `matteo-ritratto.jpg`
+3. **I Soci Fondatori**: foto di apertura `soci-insieme.jpg` (DSC_5345, quadro oro —
+   la 5330 è stata scartata dal cliente perché sfuocata) +
+   blocchi alternati → `luca-libreria.jpg` (DSC_5318) + `matteo-ritratto.jpg` +
+   coppia "al lavoro" → `matteo-lettura.jpg` (DSC_5446) + `luca-telefono.jpg` (DSC_5448)
+   ← foto preferite dal cliente, molto visibili
 4. **Fascia parallax** → `matteo-lampada.jpg` (separatore prima delle Aree di Competenza)
 
 ### Lo Studio (lo-studio.html)
 - 4 video esistenti (invariati)
-- **Coppia foto team** tra la sezione 2 e 3 → `team-abbracciato.jpg` + `team-tavolo.jpg`
+- **Coppia foto team** tra la sezione 2 e 3 → `team-abbracciato.jpg` + `team-sorriso.jpg`
+- **Coppia dettagli** prima del footer → `luca-tavolo.jpg` (DSC_5423, preferita dal
+  cliente) + `studio-toga.jpg` (DSC_5422)
+  (le macchine da scrivere DSC_5382 sono state scartate dal cliente)
 
 ### I Professionisti (i-professionisti.html)
-- Schede soci: foto profilo circolari → `luca-volto.jpg`, `matteo-volto.jpg`
+- Schede soci: volti circolari → `luca-volto.jpg` (DSC_5362, frontale) e `matteo-volto.jpg`
 - Galleria 4 foto sotto ogni scheda socio (con lightbox al clic)
-- **Fascia team di chiusura** prima del footer → `team-sorriso.jpg`
-- Collaboratrici: foto profilo circolari → `volto-malorgio.jpg`, `volto-colombo.jpg`,
-  `volto-castiglioni.jpg` (recuperate dal repository GitHub il 12/07/2026)
+- **Fascia collaboratrici insieme** → `collaboratrici-insieme.jpg` (DSC_5416)
+- Schede collaboratrici: volti circolari da ritratti dedicati (`volto-malorgio` da DSC_5404,
+  `volto-colombo` da DSC_5402, `volto-castiglioni` da DSC_5394) + ritratto verticale in card
+  (`monica-ritratto` DSC_5411, `elisa-ritratto` DSC_5397, `chiara-ritratto` DSC_5388)
+- **Fascia team di chiusura** prima del footer → `team-tavolo.jpg` (DSC_5437, col tavolo e la toga)
 
 ### Contatti (contatti.html)
 - **Fascia di benvenuto** dopo il titolo → `team-toga.jpg`
+- **Coppia sede** → `studio-targa.jpg` (DSC_5495) + `studio-vetrata.jpg` (DSC_5497)
 
 ### Attività (attivita.html)
-- Nessuna foto (pagina di solo testo) → candidata per foto ambienti futuri
+- **Foto di apertura verticale** → `luca-fascicolo.jpg` (DSC_5424, preferita dal cliente)
+- **Fascia di chiusura** → `studio-quadro.jpg` (DSC_5341)
 
 ## 5. Criteri di scelta (come decidiamo quali foto usare)
 
@@ -84,10 +95,13 @@ descrittivo in italiano, `object-fit: cover` per i ritagli via CSS.
 ## 6. Foto che mancano (lista della spesa per il prossimo servizio)
 
 **Priorità alta**
-- [ ] Ritratto frontale di **Luca in piedi davanti alla libreria** (identico allo
-      stile di quello di Matteo, DSC_5479) → renderebbe simmetriche le schede dei soci
-- [x] ~~Ritratti delle tre collaboratrici~~ → volti recuperati dal repo GitHub;
-      restano da fare foto "al lavoro" individuali (priorità bassa)
+- [x] ~~Ritratto frontale di Luca~~ → trovato nell'archivio completo (DSC_5357-5362)
+- [x] ~~Ritratti delle tre collaboratrici~~ → trovati nell'archivio completo
+      (Chiara 5388-5396, Elisa 5397-5403, Monica 5404-5414)
+
+**Nota:** l'archivio completo del servizio (205 foto) è in
+`C:\Users\erges\Desktop\foto studio abbiati\` — catalogato foto per foto in
+`CATALOGO-FOTO.md`.
 
 **Priorità media**
 - [ ] Ambienti dello studio **senza persone**: ingresso, sala riunioni, dettagli

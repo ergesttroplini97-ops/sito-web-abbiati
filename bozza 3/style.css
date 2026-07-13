@@ -1226,6 +1226,36 @@ button:focus-visible,
   text-shadow: 0 2px 20px rgba(0,0,0,0.7);
 }
 
+/* ── FOTO DI APERTURA SEZIONE ── */
+.section-opener-photo {
+  max-width: 980px;
+  margin: 0 auto 4.5rem;
+  overflow: hidden;
+  border: 1px solid var(--gold-border);
+  box-shadow: 0 20px 60px rgba(0,0,0,0.45);
+}
+
+.section-opener-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: transform 1.2s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.section-opener-photo:hover img { transform: scale(1.03); }
+
+.section-opener-photo.portrait { max-width: 520px; }
+
+/* ── RITRATTO NELLE SCHEDE COLLABORATRICI ── */
+.collaboratore-ritratto {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  margin-top: 1.4rem;
+  border: 1px solid var(--border);
+}
+
 /* ── COPPIA FOTO TEAM (pagina Lo Studio) ── */
 .studio-photo-duo {
   display: grid;
@@ -1248,6 +1278,15 @@ button:focus-visible,
 }
 
 .studio-photo-duo figure:hover img { transform: scale(1.04); }
+
+.studio-photo-duo.tall img { aspect-ratio: 4 / 5; }
+
+.studio-photo-duo.single {
+  grid-template-columns: 1fr;
+  max-width: 460px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .studio-photo-duo figcaption {
   padding: 0.9rem 1.1rem;
