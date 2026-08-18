@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 260" role="img" aria-labelledby="title desc">
+  <title id="title">Abbiati Studio Legale Associato</title>
+  <desc id="desc">Marchio tipografico color bronzo su fondo trasparente.</desc>
+  <defs>
+    <linearGradient id="bronze" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E2C18B"/>
+      <stop offset="0.48" stop-color="#C49A5A"/>
+      <stop offset="1" stop-color="#9E7440"/>
+    </linearGradient>
+  </defs>
+  <g fill="url(#bronze)" text-anchor="middle">
+    <text x="460" y="150" font-family="Georgia, 'Times New Roman', serif" font-size="158" font-weight="400" letter-spacing="5">ABBIATI</text>
+    <rect x="106" y="178" width="708" height="1.5" rx=".75" opacity=".68"/>
+    <text x="460" y="226" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="400" letter-spacing="8">STUDIO LEGALE ASSOCIATO</text>
+  </g>
+</svg>
