@@ -1321,3 +1321,270 @@ button:focus-visible,
   .founder-photo img { height: 320px; }
   .photo-band { background-attachment: scroll; min-height: 300px; }
 }
+
+
+/* ═══════════════════════════════════════════════
+   ANTEPRIMA HERO EDITORIALE — AGOSTO 2026
+   Video atmosferico, identità a sinistra, soci in primo piano
+   ═══════════════════════════════════════════════ */
+.hero.hero-photo.hero-editorial {
+  min-height: clamp(680px, 82vh, 820px);
+  align-items: stretch;
+  justify-content: center;
+  isolation: isolate;
+}
+
+.hero-editorial .hero-video {
+  inset: -14px;
+  width: calc(100% + 28px);
+  height: calc(100% + 28px);
+  opacity: 0.42;
+  filter: blur(7px) saturate(0.55) brightness(0.52);
+  transform: scale(1.035);
+  z-index: 1;
+}
+
+.hero-atmosphere {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  background:
+    radial-gradient(circle at 76% 46%, rgba(165, 126, 72, 0.12), transparent 38%),
+    linear-gradient(90deg, rgba(7, 11, 15, 0.98) 0%, rgba(7, 11, 15, 0.92) 37%, rgba(7, 11, 15, 0.58) 68%, rgba(7, 11, 15, 0.78) 100%),
+    linear-gradient(180deg, rgba(7, 11, 15, 0.42), rgba(7, 11, 15, 0.76));
+  pointer-events: none;
+}
+
+.hero-editorial-inner {
+  position: relative;
+  z-index: 3;
+  width: min(1240px, calc(100% - 5rem));
+  margin: 0 auto;
+  padding: 8.75rem 0 5rem;
+  display: grid;
+  grid-template-columns: minmax(320px, 0.82fr) minmax(480px, 1.18fr);
+  gap: clamp(3rem, 6vw, 6.5rem);
+  align-items: center;
+}
+
+.hero-identity {
+  align-self: center;
+  min-width: 0;
+}
+
+.hero-kicker {
+  display: block;
+  margin-bottom: 1.7rem;
+  color: rgba(244, 240, 232, 0.68);
+  font-family: var(--font-sans);
+  font-size: 0.64rem;
+  font-weight: 500;
+  letter-spacing: 0.19em;
+  line-height: 1.65;
+  text-transform: uppercase;
+}
+
+.hero-new-logo {
+  display: block;
+  width: min(100%, 470px);
+  height: auto;
+  margin: 0;
+  filter: drop-shadow(0 12px 30px rgba(0, 0, 0, 0.46));
+}
+
+.hero-signature {
+  width: min(100%, 470px);
+  margin-top: 2rem;
+  padding-top: 1.2rem;
+  border-top: 1px solid rgba(196, 154, 90, 0.42);
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+  color: rgba(244, 240, 232, 0.78);
+  font-family: var(--font-serif);
+  font-size: 0.88rem;
+  letter-spacing: 0.08em;
+}
+
+.hero-signature span + span {
+  padding-left: 1.4rem;
+  border-left: 1px solid rgba(196, 154, 90, 0.38);
+}
+
+.hero-portrait {
+  position: relative;
+  margin: 0;
+  overflow: hidden;
+  aspect-ratio: 3 / 2;
+  background: #0a0f14;
+  border: 1px solid rgba(196, 154, 90, 0.52);
+  box-shadow: 0 34px 90px rgba(0, 0, 0, 0.58);
+}
+
+.hero-portrait::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  box-shadow: inset 0 0 0 1px rgba(244, 240, 232, 0.06);
+  pointer-events: none;
+}
+
+.hero-portrait::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(180deg, transparent 48%, rgba(4, 7, 10, 0.88) 100%);
+  pointer-events: none;
+}
+
+.hero-portrait img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 34%;
+  filter: saturate(0.86) contrast(1.04);
+  transition: transform 1.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.hero-portrait:hover img {
+  transform: scale(1.025);
+}
+
+.hero-portrait figcaption {
+  position: absolute;
+  z-index: 2;
+  left: 1.7rem;
+  right: 1.7rem;
+  bottom: 1.35rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+.hero-portrait figcaption span {
+  color: var(--gold-light);
+  font-family: var(--font-sans);
+  font-size: 0.58rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.hero-portrait figcaption strong {
+  color: rgba(244, 240, 232, 0.86);
+  font-family: var(--font-serif);
+  font-size: 0.76rem;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  text-align: right;
+}
+
+.navbar-logo-img[src*="logo-abbiati-bronzo"],
+.footer-logo-img[src*="logo-abbiati-bronzo"] {
+  filter: drop-shadow(0 6px 16px rgba(0, 0, 0, 0.28));
+}
+
+@media (max-width: 1040px) {
+  .hero-editorial-inner {
+    width: min(100% - 3rem, 920px);
+    grid-template-columns: minmax(270px, 0.82fr) minmax(410px, 1.18fr);
+    gap: 2.8rem;
+  }
+
+  .hero-signature {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.55rem;
+  }
+
+  .hero-signature span + span {
+    padding-left: 0;
+    border-left: 0;
+  }
+}
+
+@media (max-width: 820px) {
+  .hero.hero-photo.hero-editorial {
+    min-height: auto;
+  }
+
+  .hero-atmosphere {
+    background:
+      linear-gradient(180deg, rgba(7, 11, 15, 0.96) 0%, rgba(7, 11, 15, 0.84) 48%, rgba(7, 11, 15, 0.72) 100%);
+  }
+
+  .hero-editorial-inner {
+    width: min(100% - 3rem, 680px);
+    padding: 7.8rem 0 3.2rem;
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .hero-identity {
+    text-align: center;
+  }
+
+  .hero-new-logo {
+    width: min(100%, 430px);
+    margin-inline: auto;
+  }
+
+  .hero-signature {
+    width: min(100%, 430px);
+    margin-inline: auto;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .hero-signature span + span {
+    padding-left: 1rem;
+    border-left: 1px solid rgba(196, 154, 90, 0.38);
+  }
+}
+
+@media (max-width: 520px) {
+  .hero-editorial-inner {
+    width: min(100% - 2rem, 460px);
+    padding-top: 7rem;
+  }
+
+  .hero-kicker {
+    max-width: 330px;
+    margin-inline: auto;
+    font-size: 0.56rem;
+  }
+
+  .hero-signature {
+    font-size: 0.75rem;
+  }
+
+  .hero-portrait {
+    aspect-ratio: 4 / 3;
+  }
+
+  .hero-portrait figcaption {
+    left: 1rem;
+    right: 1rem;
+    bottom: 0.9rem;
+    display: block;
+  }
+
+  .hero-portrait figcaption strong {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-portrait img {
+    transition: none;
+  }
+
+  .hero-portrait:hover img {
+    transform: none;
+  }
+}
