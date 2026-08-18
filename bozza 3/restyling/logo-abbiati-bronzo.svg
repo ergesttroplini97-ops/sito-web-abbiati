@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 260" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 280" role="img" aria-labelledby="title desc">
   <title id="title">Abbiati Studio Legale Associato</title>
   <desc id="desc">Marchio tipografico color bronzo su fondo trasparente.</desc>
   <defs>
@@ -8,9 +8,8 @@
       <stop offset="1" stop-color="#9E7440"/>
     </linearGradient>
   </defs>
-  <g fill="url(#bronze)" text-anchor="middle">
-    <text x="460" y="150" font-family="Georgia, 'Times New Roman', serif" font-size="158" font-weight="400" letter-spacing="5">ABBIATI</text>
-    <rect x="106" y="178" width="708" height="1.5" rx=".75" opacity=".68"/>
-    <text x="460" y="226" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="400" letter-spacing="8">STUDIO LEGALE ASSOCIATO</text>
+  <g fill="url(#bronze)" text-anchor="middle" font-family="'Times New Roman', Times, serif">
+    <text x="460" y="158" font-size="168" font-weight="400" letter-spacing="-1">ABBIATI</text>
+    <text x="460" y="242" font-size="49" font-weight="400" letter-spacing="2.5">STUDIO LEGALE ASSOCIATO</text>
   </g>
 </svg>
