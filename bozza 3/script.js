@@ -91,7 +91,7 @@
 
 /* ── LIGHTBOX GALLERIA SOCI ── */
 (function initLightbox() {
-  const thumbs = document.querySelectorAll('.socio-gallery img');
+  const thumbs = document.querySelectorAll('.socio-gallery:not(.single) img');
   if (!thumbs.length) return;
 
   const overlay = document.createElement('div');
